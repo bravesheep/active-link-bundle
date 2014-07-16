@@ -1,0 +1,19 @@
+{
+    "name": "bravesheep/active-link-bundle",
+    "description": "Provides ability in Twig templates to determine if an action is being requested",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruben Nijveld",
+            "email": "ruben@bravesheep.nl"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bravesheep\\ActiveLinkBundle\\": "src/Bravesheep/ActiveLinkBundle/"
+        }
+    }
+}
